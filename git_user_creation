@@ -2,13 +2,13 @@
 
 1. Open you terminal and got the the target directory 
 
-```bash
+```
 $ cd lab
 ```
 
 2. install git in your machine 
-https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh
-```bash
+
+```
 $ sudo apt-get install git
 ```
 
