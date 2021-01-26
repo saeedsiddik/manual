@@ -1,4 +1,4 @@
-# Github Repository Clone
+### Github Repository Clone
 
 1. Open you terminal and got the the target directory 
 
@@ -34,4 +34,21 @@ ssh-add ~/.ssh/id_rsa
 6. go to gitgub website -> user -> setting -> ssh
 7. add a new ssh_key and past the copied key there. If need get help from here https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh
 
-#end
+
+
+### Git branch, push and commit
+
+```
+git clone git@github.com:saeedsiddik/toy-dropwizard-server.git
+ll
+git checkout -b "fix-docs-branch"
+git status
+nano README.md 
+git status
+git commit -m "Add new manual in the README to build"
+git status
+git reflog 
+git add
+git push -u origin fix-docs-branch 
+git log
+```
